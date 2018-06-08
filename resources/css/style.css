@@ -130,6 +130,7 @@ nav span {
   display: flex;
 }
 
+/* featured quote styles */
 .featured {
   width: 60%;
   padding: 2rem 0 2rem 1.5rem;
@@ -149,6 +150,7 @@ nav span {
   font-weight: 400;
 }
 
+/* supporting information styles */
 .supporting {
   display: flex;
   flex-flow: column wrap;
@@ -156,7 +158,17 @@ nav span {
   width: 38%;
   border-left: 1px #D8D8D8 solid;
 }
-.supporting div {
-  padding-left: 1rem;
-  width: 99%;
+.supporting .info-container {
+  padding: 1rem;
+  display: flex;
+}
+
+.supporting .image-container {
+  width: 35%;
+  height: auto;
+  border: 1px red solid;
+}
+.supporting .supporting-text-box {
+  width: 65%;
+  border: 1px red solid;
 }
