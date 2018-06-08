@@ -221,6 +221,7 @@ nav span {
   flex-direction: column;
   background-color: #FFF;
   width: 20rem;
+  min-height: 23rem;
   margin: 0.75rem;
 }
 
@@ -231,4 +232,12 @@ nav span {
 
 .course-text {
   padding: 1rem 1rem 2rem 1rem;
+}
+.course-text h3 {
+  padding-bottom: 1rem;
+}
+.course-text p {
+  padding-top: 0.5rem;
+  line-height: 1.5;
+  font-weight: 300;
 }
