@@ -142,10 +142,21 @@ nav span {
 }
 .featured p {
   padding-top: 1.5rem;
+  font-weight: 300;
+}
+.featured p.author {
+  font-size: 0.85em;
+  font-weight: 400;
 }
 
 .supporting {
+  display: flex;
+  flex-flow: column wrap;
   margin-left: 1.5rem;
   width: 38%;
   border-left: 1px #D8D8D8 solid;
+}
+.supporting div {
+  padding-left: 1rem;
+  width: 99%;
 }
