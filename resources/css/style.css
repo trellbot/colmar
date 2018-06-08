@@ -47,6 +47,7 @@ header {
   background-color: #FFFFFF;
 }
 
+/* logo styles */
 .logo {
   display: flex;
   align-items: center;
@@ -57,4 +58,13 @@ header {
 }
 .logo span:first-of-type {
   font-weight: 700;
+}
+
+/* navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+nav span {
+  padding-left: 1rem;
 }
