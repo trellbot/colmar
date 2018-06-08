@@ -197,3 +197,13 @@ nav span {
 .supporting-text-box a {
   color: #189BFF;
 }
+
+/* courses section styles */
+#courses {
+  background-color: #D8D8D8;
+  padding: 2rem 4.5rem;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
