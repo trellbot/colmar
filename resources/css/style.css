@@ -167,6 +167,7 @@ nav span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-basis: 1;
 }
 .supporting .info-container:nth-child(2n) {
   border-top: 3px double #D8D8D8;
@@ -174,6 +175,10 @@ nav span {
 }
 .supporting .info-container:last-child {
   background-color: #D8D8D8;
+}
+
+.mobile {
+  display: none;
 }
 
 .supporting .image-container {
