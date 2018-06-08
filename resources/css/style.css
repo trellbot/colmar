@@ -31,7 +31,7 @@ html {
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-weight: 700;
 }
 h1  {
@@ -40,6 +40,9 @@ h1  {
 }
 h2 {
   font-size: 2em;
+}
+h3 {
+  font-size: 1.5em;
 }
 
 /* Header styles */
@@ -154,6 +157,7 @@ nav span {
 .supporting {
   display: flex;
   flex-flow: column wrap;
+  align-items: center;
   margin-left: 1.5rem;
   width: 38%;
   border-left: 1px #D8D8D8 solid;
@@ -161,14 +165,30 @@ nav span {
 .supporting .info-container {
   padding: 1rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.supporting .info-container:nth-child(2n) {
+  border-top: 3px double #D8D8D8;
+  border-bottom: 3px double #D8D8D8;
+}
+.supporting .info-container:last-child {
+  background-color: #D8D8D8;
 }
 
 .supporting .image-container {
   width: 35%;
   height: auto;
-  border: 1px red solid;
 }
 .supporting .supporting-text-box {
   width: 65%;
-  border: 1px red solid;
+  padding-left: 1rem;
+}
+.supporting-text-box p {
+  font-size: 0.9em;
+  font-weight: 300;
+  padding: 0.5rem 1rem 0.5rem 0;
+}
+.supporting-text-box a {
+  color: #189BFF;
 }
