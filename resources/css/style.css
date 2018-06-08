@@ -228,3 +228,7 @@ nav span {
   height: auto;
   width: 100%;
 }
+
+.course-text {
+  padding: 1rem 1rem 2rem 1rem;
+}
