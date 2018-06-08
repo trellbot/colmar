@@ -30,6 +30,7 @@
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  color: #3B3B3B;
 }
 
 * {
@@ -44,7 +45,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #FFF;
 }
 
 /* logo styles */
@@ -55,9 +56,11 @@ header {
 .logo span {
   font-size: 1.2em;
   line-height: 2em;
+  font-weight: 300;
 }
 .logo span:first-of-type {
   font-weight: 700;
+  color: #000;
 }
 
 /* navigation styles */
