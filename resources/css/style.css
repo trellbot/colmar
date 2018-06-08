@@ -77,7 +77,7 @@ nav span {
   padding-left: 1rem;
 }
 
-/* banner section */
+/* banner section styles */
 #banner {
   display: flex;
   align-items: center;
@@ -123,4 +123,29 @@ nav span {
 
 .banner-text-box button:hover {
   background-color: #5B5B5B;
+}
+
+/* info section styles */
+#info {
+  display: flex;
+}
+
+.featured {
+  width: 60%;
+  padding: 2rem 0 2rem 1.5rem;
+}
+.featured .image-container {
+  width: 100%;
+}
+.featured h2 {
+  padding-top: 2rem;
+}
+.featured p {
+  padding-top: 1.5rem;
+}
+
+.supporting {
+  margin-left: 1.5rem;
+  width: 38%;
+  border-left: 1px #D8D8D8 solid;
 }
