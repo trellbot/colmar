@@ -47,6 +47,7 @@ h3 {
 
 p {
   font-weight: 300;
+  line-height: 1.5;
 }
 
 /* Header styles */
@@ -259,12 +260,17 @@ nav span {
   flex-direction: column;
   width: 60%;
 }
+.thesis-feature h3 {
+  padding: 1.5rem 0 0.5rem 0;
+}
+.thesis-feature p {
+  padding-top: 0.5rem;
+}
 
 .thesis-video {
   max-height: 40rem;
   overflow: hidden;
 }
-
 .thesis-video video {
   max-width: 100%;
   height: auto;
