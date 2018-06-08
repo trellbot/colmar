@@ -45,6 +45,10 @@ h3 {
   font-size: 1.5em;
 }
 
+p {
+  font-weight: 300;
+}
+
 /* Header styles */
 
 header {
@@ -146,8 +150,8 @@ nav span {
 }
 .featured p {
   padding-top: 1.5rem;
-  font-weight: 300;
 }
+
 .featured p.author {
   font-size: 0.85em;
   font-weight: 400;
@@ -239,5 +243,30 @@ nav span {
 .course-text p {
   padding-top: 0.5rem;
   line-height: 1.5;
-  font-weight: 300;
+}
+
+/* thesis section styles */
+#thesis {
+  padding: 2rem 1.5rem;
+}
+#thesis h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.thesis-feature {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.thesis-video {
+  max-height: 40rem;
+  overflow: hidden;
+}
+
+.thesis-video video {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
