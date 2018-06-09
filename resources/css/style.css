@@ -378,4 +378,8 @@ footer ul li a {
     width: 100%;
     max-height: 10rem;
   }
+  .supporting .supporting-text-box {
+    width: 100%;
+    padding-top: 1rem;
+  }
 }
