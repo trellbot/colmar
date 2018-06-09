@@ -306,3 +306,20 @@ footer ul li {
 footer ul li a {
   color: inherit;
 }
+
+/* mobile styles */
+@media only screen and (max-width: 480px) {
+  .desktop { /* hide desktop-specific content */
+    display: none;
+  }
+  .mobile { /* show mobile-optimized content */
+    display: inherit;
+  }
+
+  header {
+    height: 4rem;
+  }
+  header .logo span {
+    display: none;
+  }
+}
