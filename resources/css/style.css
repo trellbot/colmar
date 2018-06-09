@@ -309,7 +309,7 @@ footer ul li a {
 }
 
 /* mobile styles */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 615px) {
   .desktop { /* hide desktop-specific content */
     display: none;
   }
@@ -391,6 +391,9 @@ footer ul li a {
     background-color: #F1F1F1;
     padding: 2rem 1rem;
   }
+  #courses h2 {
+    margin-bottom: 1rem;
+  }
   .course-block {
     background-color: #D8D8D8;
     min-height: 3rem;
@@ -403,6 +406,21 @@ footer ul li a {
     padding: 0;
   }
   .course-text p {
+    display: none;
+  }
+
+  /* mobile thesis section styles */
+  #thesis {
+    padding: 2rem 0 1.5rem 0;
+  }
+  #thesis h2 {
+    margin-bottom: 1rem;
+  }
+
+  .thesis-feature {
+    width: 100%;
+  }
+  .thesis-feature h3, .thesis-feature p {
     display: none;
   }
 }
