@@ -81,7 +81,8 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav span {
+nav ul li {
+  display: inline-block;
   padding-left: 1rem;
 }
 
@@ -321,5 +322,19 @@ footer ul li a {
   }
   header .logo span {
     display: none;
+  }
+  header .logo {
+    width: 25%;
+  }
+  nav {
+    width: 75%;
+  }
+  nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul li {
+    padding: 0;
   }
 }
