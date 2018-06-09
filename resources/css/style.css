@@ -321,6 +321,9 @@ footer ul li a {
     font-size: 2em;
     line-height: 1.2;
   }
+  h3 {
+    font-size: 1.2em;
+  }
 
   /* mobile header styles */
   header {
@@ -381,5 +384,25 @@ footer ul li a {
   .supporting .supporting-text-box {
     width: 100%;
     padding-top: 1rem;
+  }
+
+  /* mobile courses section styles */
+  #courses {
+    background-color: #F1F1F1;
+    padding: 2rem 1rem;
+  }
+  .course-block {
+    background-color: #D8D8D8;
+    min-height: 3rem;
+    align-items: center;
+  }
+  .course-text {
+    padding: 1rem;
+  }
+  .course-text h3 {
+    padding: 0;
+  }
+  .course-text p {
+    display: none;
   }
 }
