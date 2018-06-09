@@ -397,7 +397,7 @@ footer ul li a {
   .course-block {
     background-color: #D8D8D8;
     min-height: 3rem;
-    align-items: center;
+    /* align-items: center; */
   }
   .course-text {
     padding: 1rem;
